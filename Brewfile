@@ -1,0 +1,7 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "fish"
+brew "git"
+cask "iterm2"
+cask "visual-studio-code"
