@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+if ! [ -x "$(command -v brew)" ]; then
+  echo 'Error: Install Homebrew from https://brew.sh/#install' >&2
+  exit 1
+fi
+
+# Make all symlinks
+
+mkdir ~/.config
+ln -s "$(pwd)/fish-shell" ~/.config/fish
+
+# Install All Apps
+brew bundle
