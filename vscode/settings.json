@@ -1,0 +1,94 @@
+{
+  // Place your settings in this file to overwrite the default settings
+  "typescript.check.npmIsInstalled": true,
+  // "editor.snippetSuggestions": "top",
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false,
+  // "editor.codeActionsOnSave": {
+  //   "source.organizeImports": true
+  // },
+  // // "javascript.implicitProjectConfig.checkJs": true,
+  // "prettier.singleQuote": true,
+  // "editor.fontFamily": "Operator Mono Book",
+  // "editor.fontFamily": "Hasklig",
+  // "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Source Code Pro",
+  "workbench.colorTheme": "One Dark Pro",
+  // "window.zoomLevel": 0
+  // "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home",
+  "window.zoomLevel": 0,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.renderWhitespace": "boundary",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "[sql]": {
+    "editor.formatOnSave": false
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "gitlens.keymap": "chorded",
+  "npm.enableScriptExplorer": true,
+  "files.defaultLanguage": "javascript",
+  "files.autoSave": "onFocusChange",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "cSpell.userWords": [
+    "promisify"
+  ],
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "go",
+    "handlebars",
+    "html",
+    "jade",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pub",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scss",
+    "text",
+    "typescriptreact",
+    "yml"
+  ],
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[typescriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[json]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "editor.suggestSelection": "first",
+  "editor.gotoLocation.multiple": "goto",
+  "workbench.sideBar.location": "left",
+  "editor.formatOnSave": true,
+  "prettier.disableLanguages": [],
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true
+}
